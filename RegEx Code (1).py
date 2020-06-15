@@ -18,8 +18,6 @@
 # 1. Single tutorial post
 # 2. Top six patterns across posts
 # 3. Sample dataset of data scraped from an individual beauty blogger's account on instagram
-# 
-# **Note:** Worked in Python 2.7
 
 # # Practice on single tutorial post
 
@@ -265,18 +263,14 @@ pao_df
 makeup = r"\w+\s+?[@:-]"
 [re.findall(makeup, row) for row in pao_df]
 
-
 # In[115]:
-
 
 #Identify continuous strings
 continuous = r"\w+bronzer\s[@:]|\w+foundation\s[@:]|\w+lips\s[@:]|\w+lip\s[@:]|\w+lipgloss\s[@:]|\w+concealer\s[@:]|\w+blush\s[@:]|\w+corrector\s[@:]|\w+lipliner\s[@:]|\w+eye\s[@:]|\w+lipstick\s[@:]|\w+contour\s[@:]|\w+palette\s[@:]|\w+eyeshadow\s[@:]|\w+eyeliner\s[@:]|\w+brows\s[@:]|\w+highlight\s[@:]|\w+gloss\s[@:]|\w+stick\s[@:]|\w+glow\s[@:]"
 continuous = [re.findall(continuous, row) for row in pao_df]
 continuous
 
-
 # In[116]:
-
 
 #Partition continuous strings
 categories = [
