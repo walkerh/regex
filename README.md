@@ -18,5 +18,5 @@ Groupdict to convert into dataframe
 
 # Data
 
-shorter_dataset.csv (sample dataset of a scraped beauty blogger's instagram account)
-longer_dataset.csv (top six patterns identified across thousands of scraped instagram accounts)
+1. shorter_dataset.csv (sample dataset of a scraped beauty blogger's instagram account)
+2. longer_dataset.csv (top six patterns identified across thousands of scraped instagram accounts)
