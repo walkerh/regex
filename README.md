@@ -1,4 +1,3 @@
-# regex
 Makeup recommender project
 
 # Goal
