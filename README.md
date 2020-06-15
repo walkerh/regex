@@ -15,3 +15,8 @@ Groupdict to convert into dataframe
 1. Single tutorial post
 2. Top six patterns across posts
 3. Sample dataset of data scraped from an individual beauty blogger's account on instagram
+
+# Data
+
+shorter_dataset.csv (sample dataset of a scraped beauty blogger's instagram account)
+longer_dataset.csv (top six patterns identified across thousands of scraped instagram accounts)
